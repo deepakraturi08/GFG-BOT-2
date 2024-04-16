@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GFG - Empowering Learning</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    /* Custom styles for header */
+    .header {
+      background-color: #f1f9f2;
+      padding: 1rem;
+    }
+
+    /* Custom styles for company name */
+    .company-name {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #2b6cb0;
+    }
+
+    /* Custom styles for navigation */
+    .nav-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Custom styles for navigation items */
+    .nav-item {
+      margin-right: 1.5rem;
+      font-size: 1rem;
+      color: #4b5563;
+      transition: all 0.3s ease;
+    }
+
+    /* Custom styles for navigation items hover */
+    .nav-item:hover {
+      color: #2b6cb0;
+    }
+
+    /* Custom styles for courses section */
+    .courses-section {
+      padding: 2rem;
+      background-color: #ffffff;
+    }
+
+    /* Custom styles for course list */
+    .course-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Custom styles for individual course */
+    .course-item {
+      margin-bottom: 1rem;
+      padding: 1rem;
+      background-color: #edf2f7;
+      border-radius: 0.5rem;
+      transition: all 0.3s ease;
+    }
+
+    /* Custom styles for individual course hover */
+    .course-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100">
+
+  <div class="header">
+    <div class="container mx-auto">
+      <div class="company-name">GFG - Empowering Learning</div>
+      <div class="nav-links">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Courses</div>
+        <div class="nav-item">Contests</div>
+        <div class="nav-item">POTD</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto py-8">
+
+    <section class="courses-section">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Available Courses</h2>
+        <ul class="course-list">
+          <li class="course-item">
+            <h3 class="text-xl font-semibold text-gray-700">Data Structures and Algorithms</h3>
+            <p class="text-gray-600">Learn essential concepts and techniques for solving coding problems efficiently.
+            </p>
+          </li>
+          <li class="course-item">
+            <h3 class="text-xl font-semibold text-gray-700">Web Development</h3>
+            <p class="text-gray-600">Build dynamic and interactive websites using modern web technologies.</p>
+          </li>
+          <li class="course-item">
+            <h3 class="text-xl font-semibold text-gray-700">Machine Learning</h3>
+            <p class="text-gray-600">Explore the fundamentals of machine learning and develop AI-powered applications.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+  <div class="fixed bottom-5 right-5">
+    <div class="chatbot-container bg-white rounded-lg shadow-lg p-6 w-96">
+      <div class="chatbot-header text-center">
+        <h1 class="text-xl font-bold text-gray-800">GFG BOT</h1>
+      </div>
+      <div class="chatbot-messages mt-4">
+        <div class="bot-message bg-gray-200 p-4 rounded-lg shadow-md">
+          <p class="text-sm text-gray-700">GFG BOT: Welcome to GFG BOT! Please enter your message below..</p>
+        </div>
+        <div class="message-input mt-4">
+          <form action="{{url_for('chatbot')}}" method="post" class="flex">
+            <input type="text" id="message" name="message" placeholder="Type your message>>>" required
+              class="flex-1 px-4 py-2 rounded-l-lg border border-gray-300 focus:outline-none focus:ring focus:ring-blue-400">
+            <button type="submit"
+              class="px-4 py-2 bg-blue-500 text-white rounded-r-lg hover:bg-green-600 focus:outline-none focus:bg-green-600">Enter</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

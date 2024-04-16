@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GFG_BOT</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .chatbot-container {
+      background-color: #ffffff;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      max-width: 30rem;
+      margin: 0 auto;
+    }
+
+    .chatbot-header {
+      text-align: center;
+    }
+
+    .chatbot-header h1 {
+      font-size: 1.5rem;
+      color: #333333;
+      margin-bottom: 1rem;
+    }
+
+    .chatbot-messages {
+      margin-top: 1.5rem;
+    }
+
+    .bot-message {
+      padding: 1rem;
+      background-color: #ebf4ff;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1rem;
+    }
+
+    .bot-message p {
+      font-size: 0.875rem;
+      color: #333333;
+    }
+
+    .message-input {
+      margin-top: 1rem;
+    }
+
+    .message-input form {
+      display: flex;
+    }
+
+    .message-input input[type="text"] {
+      flex: 1;
+      padding: 0.75rem;
+      border-radius: 0.5rem 0 0 0.5rem;
+      border: 1px solid #cccccc;
+      font-size: 0.875rem;
+      outline: none;
+    }
+
+    .message-input button {
+      padding: 0.75rem 1rem;
+      border-radius: 0 0.5rem 0.5rem 0;
+      background-color: #2563eb;
+      color: #ffffff;
+      font-size: 0.875rem;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .message-input button:hover {
+      background-color: #1e4bb8;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100">
+
+  <div class="chatbot-container bg-white rounded-lg shadow-md max-w-sm mx-auto mt-16 p-6">
+
+    <div class="chatbot-header text-center mb-4">
+      <h1 class="text-2xl font-bold text-gray-800">GFG BOT</h1>
+    </div>
+
+    <div class="chatbot-messages mb-6">
+      <div class="bot-message bg-blue-100 text-gray-700 rounded-lg shadow-md p-4">
+        <p class="text-sm">Welcome to GFG BOT! Please enter your message below.</p>
+      </div>
+    </div>
+
+    <div class="message-input flex items-center">
+      <input type="text" id="message" name="message" placeholder="Type your message>>>"
+        class="flex-1 px-4 py-2 rounded-l-lg border border-gray-300 focus:outline-none focus:ring focus:ring-blue-400">
+      <button type="submit"
+        class="px-6 py-2 bg-green-500 text-white rounded-r-lg hover:bg-green-600 focus:outline-none focus:bg-green-600 transition duration-300 ease-in-out">Send</button>
+    </div>
+
+  </div>
+</body>
+
+</html>

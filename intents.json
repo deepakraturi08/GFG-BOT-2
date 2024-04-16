@@ -1,0 +1,269 @@
+{
+  "intents": [
+    {
+      "tag": "beginner",
+      "patterns": [
+        "Suitable for beginner or advanced users?"
+      ],
+      "responses": [
+        "This course is suitable for both beginners and advanced users."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "own_pace",
+      "patterns": [
+        "Can I learn at my own pace?"
+      ],
+      "responses": [
+        "Yes, you can learn at your own pace."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "assignment",
+      "patterns": [
+        "What type of assignment do you give?"
+      ],
+      "responses": [
+        "Assignments include both practical exercises and theoretical questions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "prerequisite",
+      "patterns": [
+        "What are the pre-requirements for this course?"
+      ],
+      "responses": [
+        "The pre-requirements for this course include basic knowledge of programming and [specific language or skill if applicable]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "How long does this course take to complete?"
+      ],
+      "responses": [
+        "The course typically takes [duration] to complete, but it can vary based on individual pace."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cost",
+      "patterns": [
+        "How much does the course cost?"
+      ],
+      "responses": [
+        "The course costs [cost], but there may be discounts or scholarships available."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "doubt_support",
+      "patterns": [
+        "How is the doubt support?"
+      ],
+      "responses": [
+        "Doubt support is provided through [platform] where you can ask questions and interact with instructors."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "Does this course offer placement opportunities also?"
+      ],
+      "responses": [
+        "Yes, this course offers placement assistance and opportunities."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "differentiation",
+      "patterns": [
+        "How is the course different from other platform courses?"
+      ],
+      "responses": [
+        "This course offers [unique feature or approach], setting it apart from other platform courses."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "money_back_guarantee",
+      "patterns": [
+        "Is there any money back guarantee if I did not like the course?"
+      ],
+      "responses": [
+        "Yes, there is a [duration] money-back guarantee if you are not satisfied with the course."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "relevance",
+      "patterns": [
+        "Is this course relevant in today's market?"
+      ],
+      "responses": [
+        "Yes, this course covers [current industry trends or technologies], making it highly relevant in today's market."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "dsa_prerequisite",
+      "patterns": [
+        "Is good DSA a prerequisite for this course?"
+      ],
+      "responses": [
+        "While a good understanding of Data Structures and Algorithms (DSA) is beneficial, it is not a strict prerequisite for this course."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "earning_potential",
+      "patterns": [
+        "How much can I make after completing this course?"
+      ],
+      "responses": [
+        "The earning potential after completing this course varies based on factors like experience, location, and industry demand."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "emi_payment",
+      "patterns": [
+        "Can I pay in EMI for this course?"
+      ],
+      "responses": [
+        "Yes, EMI options are available for this course."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "Does this course offer financial aid for underprivileged people?"
+      ],
+      "responses": [
+        "Yes, financial aid options are available for eligible underprivileged individuals."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "certificate",
+      "patterns": [
+        "Does this course offer any certificate?"
+      ],
+      "responses": [
+        "Yes, upon successful completion of the course, you will receive a certificate."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "testimonials",
+      "patterns": [
+        "Where can I get testimonials for this course?"
+      ],
+      "responses": [
+        "Testimonials from previous learners are available on [platform or website]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mentor",
+      "patterns": [
+        "Who is the mentor for this course?"
+      ],
+      "responses": [
+        "The mentor for this course is [mentor's name], an experienced professional in the field."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mode",
+      "patterns": [
+        "Is it an online or offline course?"
+      ],
+      "responses": [
+        "This course is conducted entirely online."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "course_data_science",
+      "patterns": [
+        "Data Science Course",
+        "Data Science Certification",
+        "Data Science Training"
+      ],
+      "responses": [
+        "Our Data Science Course covers topics such as Python programming, Machine Learning, Data Analysis, and more.",
+        "Gain expertise in Data Science with our comprehensive course.",
+        "Become a certified Data Scientist with our specialized training program."
+      ],
+      "price": "$299",
+      "duration": "12 weeks"
+    },
+    {
+      "tag": "course_web_development",
+      "patterns": [
+        "Web Development Course",
+        "Web Development Certification",
+        "Web Development Training"
+      ],
+      "responses": [
+        "Learn HTML, CSS, JavaScript, and other essential skills for Web Development.",
+        "Our Web Development Course provides hands-on experience in building modern websites and web applications.",
+        "Become a proficient Web Developer with our expert-led training program."
+      ],
+      "price": "$249",
+      "duration": "10 weeks"
+    },
+    {
+      "tag": "course_digital_marketing",
+      "patterns": [
+        "Digital Marketing Course",
+        "Digital Marketing Certification",
+        "Digital Marketing Training"
+      ],
+      "responses": [
+        "Master the fundamentals of Digital Marketing, including SEO, SEM, Social Media Marketing, and more.",
+        "Our Digital Marketing Course equips you with the skills needed to excel in the rapidly evolving digital landscape.",
+        "Become a certified Digital Marketer and enhance your career prospects with our comprehensive training program."
+      ],
+      "price": "$199",
+      "duration": "8 weeks"
+    },
+    {
+      "tag": "course_machine_learning",
+      "patterns": [
+        "Machine Learning Course",
+        "Machine Learning Certification",
+        "Machine Learning Training"
+      ],
+      "responses": [
+        "Learn the principles and techniques of Machine Learning, including supervised and unsupervised learning, neural networks, and more.",
+        "Our Machine Learning Course empowers you to build intelligent systems and make data-driven decisions.",
+        "Become proficient in Machine Learning and advance your career with our specialized training program."
+      ],
+      "price": "$349",
+      "duration": "14 weeks"
+    },
+    {
+      "tag": "course_mobile_app_development",
+      "patterns": [
+        "Mobile App Development Course",
+        "Mobile App Development Certification",
+        "Mobile App Development Training"
+      ],
+      "responses": [
+        "Gain hands-on experience in building mobile applications for iOS and Android platforms.",
+        "Our Mobile App Development Course covers app design, development, and deployment using industry-standard tools and technologies.",
+        "Become a skilled Mobile App Developer and create innovative mobile solutions with our comprehensive training program."
+      ],
+      "price": "$279",
+      "duration": "12 weeks"
+    }
+  ]
+}
